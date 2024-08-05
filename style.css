@@ -79,7 +79,7 @@ main {
     width: var(--size);
     border-radius: var(--size);
 
-    background-color: var(--accent-success);
+    background-color: var(--muted-foreground);
 
     position: absolute;
     top: -1.5rem;
@@ -117,13 +117,13 @@ main {
 }
 
 .quater li {
-    list-style-type: numeric;
+    list-style-type: decimal-leading-zero;
     color: var(--muted-foreground);
     line-height: 2em;
 }
 
 li::marker {
-    color: var(--accent-destructive);
+    color: var(--muted-foreground);
 }
 
 /* About Section */
